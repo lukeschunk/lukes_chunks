@@ -12,10 +12,13 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-" minimal vim config for working on remote machines, in containers, etc.
-" apk update && apk add vim
-" curl -sL https://raw.githubusercontent.com/zacanger/z/master/.vimrc > ~/.vimrc
-
+filetype plugin indent on
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
+set bomb
+set binary
+set showcmd
 
 colorscheme synthwave
 set clipboard^=unnamed,unnamedplus
